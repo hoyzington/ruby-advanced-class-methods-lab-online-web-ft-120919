@@ -45,6 +45,7 @@ class Song
   end
   
   def self.alphabetical
+<<<<<<< HEAD
    self.all.sort_by{|song| song.name}
   end
   
@@ -63,6 +64,9 @@ class Song
   
   def self.destroy_all
     self.all.clear
+=======
+    self.all.sort
+>>>>>>> 08458b26eb906e0df8f6d533499e00fda1602af0
   end
   
 end
